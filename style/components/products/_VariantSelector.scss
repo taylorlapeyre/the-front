@@ -1,0 +1,37 @@
+@import 'mixins/font';
+@import 'variables/colors';
+
+.variant-selector {
+  @include font(sans-serif, 12px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  color: $everlane-grey;
+
+  &__option {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &--active {
+      border: 1px solid $dark-accent-grey !important;
+    }
+
+    &--sold-out {
+      background-color: $tone-grey;
+      color: $light-accent-grey;
+      pointer-events: none;
+    }
+  }
+
+}

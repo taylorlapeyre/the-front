@@ -1,0 +1,14 @@
+@import 'variables/colors';
+@import 'mixins/font';
+
+.secure-credit-card-form {
+  background: $tone-grey;
+  padding: 20px 50px;
+
+  &__safety-info {
+    @include font(sans-serif, 12px);
+    color: $everlane-grey;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}

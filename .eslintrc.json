@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "flowtype",
+    "react",
+    "jsx-a11y"
+  ],
+  "rules": {
+    "flowtype/space-after-type-colon": [1, "always"],
+    "flowtype/type-id-match": [2, "^([A-Z][a-z0-9]+)+Type$"],
+    "semi": 0,
+    "camelcase": 0,
+    "react/jsx-no-bind": [2, {
+      "ignoreRefs": true
+    }],
+    "no-return-assign": 0,
+    "react/sort-comp": 0
+  },
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  }
+}

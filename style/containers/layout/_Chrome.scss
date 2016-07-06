@@ -1,0 +1,14 @@
+// TODO: Move these global styles to a different file.
+
+.content {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*:focus {
+  outline: 1px solid rgba(white, 0.2);
+}

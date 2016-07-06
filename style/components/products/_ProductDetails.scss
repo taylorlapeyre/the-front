@@ -1,0 +1,24 @@
+@import 'mixins/font';
+
+.product-details {
+  width: 50%;
+  text-align: center;
+
+  &__title {
+    @include font(serif, 24px);
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  &__price {
+    @include font(serif, 20px);
+    margin-top: 0;
+  }
+
+  &__selector-title {
+    @include font(sans-serif, 12px);
+    text-transform: uppercase;
+    color: $everlane-grey;
+    margin-bottom: 0;
+  }
+}

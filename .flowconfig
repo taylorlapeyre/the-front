@@ -1,0 +1,19 @@
+[ignore]
+.*/node_modules/fbjs/.*
+
+[include]
+
+[libs]
+
+[options]
+esproposal.class_static_fields=enable
+module.name_mapper='^actions' -> '<PROJECT_ROOT>/src/actions'
+module.name_mapper='^components' -> '<PROJECT_ROOT>/src/components'
+module.name_mapper='^containers' -> '<PROJECT_ROOT>/src/containers'
+module.name_mapper='^lib' -> '<PROJECT_ROOT>/src/lib'
+module.name_mapper='^reducers' -> '<PROJECT_ROOT>/src/reducers'
+module.name_mapper='^store' -> '<PROJECT_ROOT>/src/store'
+module.name_mapper='^routes' -> '<PROJECT_ROOT>/src/routes'
+module.name_mapper='^data' -> '<PROJECT_ROOT>/server/data'
+module.name_mapper='^settings' -> '<PROJECT_ROOT>/config/settings'
+module.name_mapper='^types' -> '<PROJECT_ROOT>/flow/types'

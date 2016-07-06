@@ -1,0 +1,28 @@
+@import "variables/colors";
+@import "mixins/font";
+
+.order-balance {
+  background: $tone-grey;
+  margin-bottom: 10px;
+
+  &__title {
+    @include font(serif, 18px);
+  }
+
+  &__item {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid darken($tone-grey, 5%);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  &__item-title,
+  &__item-value {
+    @include font(sans-serif, 14px);
+  }
+}

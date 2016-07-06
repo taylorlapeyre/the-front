@@ -1,0 +1,37 @@
+{
+  "shipping_options": [
+    {
+      "description": "4-8 Day Standard Shipping",
+      "short_description": "Standard Shipping",
+      "details": "4-8 days",
+      "cart_params": {
+        "delivery": false,
+        "expedited": false
+      },
+      "note": "",
+      "amount": "$4.95",
+      "selected": true
+    },
+    {
+      "description": "2 Day Express Shipping",
+      "short_description": "Express Shipping",
+      "details": "2 days",
+      "cart_params": {
+        "delivery": false,
+        "expedited": true
+      },
+      "note": "",
+      "amount": "$4.95"
+    },
+    {
+      "description": "1-Hour Delivery",
+      "submit_params": {
+        "shipping_method": "delivery"
+      },
+      "cart_params": {
+        "delivery": true,
+        "expedited": false
+      }
+    }
+  ]
+}

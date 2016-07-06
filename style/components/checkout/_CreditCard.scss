@@ -1,0 +1,19 @@
+@import "variables/colors";
+@import "mixins/font";
+
+.credit-card {
+  @include font(sans-serif, 13px);
+  color: $everlane-grey;
+  line-height: 1.5;
+  font-style: normal;
+
+  &__action-link {
+    appearance: none;
+    background: none;
+    border: none;
+    color: $light-accent-grey;
+    font-style: italic;
+    display: block;
+    padding: 10px 0;
+  }
+}

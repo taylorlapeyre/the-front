@@ -1,0 +1,21 @@
+@import "mixins/font";
+@import "variables/colors";
+
+.hover-cart {
+  position: absolute;
+  right: 20px;
+  min-height: 200px;
+  background: $white;
+  color: $dark-accent-grey;
+  width: 400px;
+  top: 60px;
+  padding: 0 20px;
+  border: 1px solid $tone-grey;
+  border-radius: 2px;
+
+  &__checkout-button {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+}

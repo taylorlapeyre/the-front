@@ -1,0 +1,20 @@
+@import 'variables/colors';
+@import 'mixins/font';
+
+.order-details-table {
+  width: 100%;
+
+  & th {
+    @include font(serif, 16px);
+    color: $everlane-grey;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $light-accent-grey;
+    margin-bottom: 20px;
+  }
+
+  & td {
+    @include font(sans-serif, 12px);
+    padding-top: 10px;
+    vertical-align: top;
+  }
+}

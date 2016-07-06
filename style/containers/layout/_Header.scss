@@ -1,0 +1,36 @@
+@import 'mixins/clearfix';
+@import 'variables/colors';
+@import 'mixins/font';
+
+.app-header {
+  background-color: $white;
+  color: $dark-accent-grey;
+  left: 0;
+  margin: 0 auto;
+  min-width: 940px;
+  overflow: visible; // Overwrite clearfix overflow
+  position: relative;
+  top: 0;
+  transition: background-color 250ms, color 250ms;
+  width: 100%;
+  z-index: 1;
+
+  &:hover {
+    color: $dark-accent-grey;
+  }
+
+  &--transparent {
+    position: absolute;
+  }
+
+  &--transparent:not(:hover) {
+    background-color: transparent;
+    color: $white;
+  }
+
+  &__logo-container {
+    text-align: center;
+    padding: 20px 0 10px;
+    padding-bottom: 15px;
+  }
+}

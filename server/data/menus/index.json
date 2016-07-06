@@ -1,0 +1,560 @@
+{
+  "menus":[
+    {
+      "id":1,
+      "name":"Women",
+      "position":0,
+      "parent_id":617,
+      "important":false,
+      "img_url":"https://everlane.imgix.net/i/6683021f_c48d.jpg",
+      "url":"/collections/womens-all",
+      "submenus":[
+        {
+          "id":577,
+          "name":"Featured",
+          "position":-10,
+          "parent_id":1,
+          "important":false,
+          "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+          "url":"/collections/womens-newest-arrivals",
+          "submenus":[
+            {
+              "id":591,
+              "name":"New Arrivals",
+              "position":0,
+              "parent_id":577,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/0839f6b0_d5cd.jpg",
+              "url":"/collections/womens-newest-arrivals",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":738,
+              "name":"Coming Soon",
+              "position":0,
+              "parent_id":577,
+              "important":false,
+              "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+              "url":"/coming-soon/women",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":584,
+              "name":"Everlane Now NYC",
+              "position":3,
+              "parent_id":577,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/28ff550c_cda6.jpg",
+              "url":"/collections/nyc-everlane-now-womens",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":728,
+              "name":"Everlane Now SF",
+              "position":3,
+              "parent_id":577,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/1866baef_d554.jpg",
+              "url":"/collections/sf-everlane-now-womens",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":755,
+              "name":"His for Her",
+              "position":6,
+              "parent_id":577,
+              "important":false,
+              "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+              "url":"/collections/his-for-her",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":758,
+              "name":"Ankle Boots",
+              "position":7,
+              "parent_id":577,
+              "important":false,
+              "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+              "url":"ankle-boots",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":759,
+              "name":"Choose What You Pay",
+              "position":8,
+              "parent_id":577,
+              "important":false,
+              "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+              "url":"/collections/womens-choose-what-you-pay",
+              "submenus":[
+
+              ]
+            }
+          ]
+        },
+        {
+          "id":498,
+          "name":"Apparel",
+          "position":1,
+          "parent_id":1,
+          "important":false,
+          "img_url":"https://everlane.imgix.net/i/6683021f_c48d.jpg",
+          "url":"/collections/womens-all-apparel",
+          "submenus":[
+            {
+              "id":502,
+              "name":"Sweaters",
+              "position":1,
+              "parent_id":498,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/1c7d4d6c_245a.jpg",
+              "url":"collections/womens-sweaters",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":520,
+              "name":"Outerwear",
+              "position":2,
+              "parent_id":498,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/0839f6b0_90f0.jpg",
+              "url":"/collections/womens-outerwear",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":501,
+              "name":"Tops & Silk",
+              "position":3,
+              "parent_id":498,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/c0a689ab_ddf4.jpg",
+              "url":"/collections/womens-tops",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":500,
+              "name":"Tees",
+              "position":4,
+              "parent_id":498,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/1866baef_d554.jpg",
+              "url":"/collections/womens-tees",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":539,
+              "name":"Bottoms",
+              "position":5,
+              "parent_id":498,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/b3a413d0_468e.jpg",
+              "url":"/collections/womens-pants-shorts",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":681,
+              "name":"Skirts & Dresses",
+              "position":7,
+              "parent_id":498,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/b850da85_6f1e.jpg",
+              "url":"/collections/dresses",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":749,
+              "name":"Sweatshirts",
+              "position":7,
+              "parent_id":498,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/60a927ea_3480.jpg",
+              "url":"/collections/womens-sweatshirts",
+              "submenus":[
+
+              ]
+            }
+          ]
+        },
+        {
+          "id":499,
+          "name":"Accessories",
+          "position":2,
+          "parent_id":1,
+          "important":false,
+          "img_url":"https://everlane-2.imgix.net/i/30db9f97_81bf.jpg",
+          "url":"/collections/womens-all-accessories",
+          "submenus":[
+            {
+              "id":524,
+              "name":"Shoes",
+              "position":1,
+              "parent_id":499,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/f0d2754f_61f2.jpg",
+              "url":"/collections/womens-shoes",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":503,
+              "name":"Petra Bags",
+              "position":2,
+              "parent_id":499,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/3373d179_0af4.jpg",
+              "url":"/collections/petra",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":505,
+              "name":"Backpacks & Bags",
+              "position":4,
+              "parent_id":499,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/cab5174c_a5b3.jpg",
+              "url":"/collections/womens-backpacks-bags",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":506,
+              "name":"Leather Goods",
+              "position":5,
+              "parent_id":499,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/381bdd19_04c4.jpg",
+              "url":"/collections/womens-accessories",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":538,
+              "name":"Scarves, Hats & Gloves",
+              "position":5,
+              "parent_id":499,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/dc9b4bde_8785.jpg",
+              "url":"/collections/womens-scarves-hats-gloves",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":731,
+              "name":"Gift Cards",
+              "position":7,
+              "parent_id":499,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/99f14311_416f.jpg",
+              "url":"/collections/everlane-giftcards",
+              "submenus":[
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"Men",
+      "position":1,
+      "parent_id":617,
+      "important":false,
+      "img_url":"https://everlane.imgix.net/i/ed1896b8_f20f.jpg",
+      "url":"/collections/mens-all",
+      "submenus":[
+        {
+          "id":581,
+          "name":"Featured",
+          "position":-10,
+          "parent_id":2,
+          "important":false,
+          "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+          "url":"/collections/mens-newest-arrivals",
+          "submenus":[
+            {
+              "id":592,
+              "name":"New Arrivals",
+              "position":0,
+              "parent_id":581,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/fde8bd54_892c.jpg",
+              "url":"/collections/mens-newest-arrivals",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":739,
+              "name":"Coming Soon",
+              "position":0,
+              "parent_id":581,
+              "important":false,
+              "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+              "url":"/coming-soon/men",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":729,
+              "name":"Everlane Now SF",
+              "position":2,
+              "parent_id":581,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/3fda3fb2_50f2.jpg",
+              "url":"/collections/sf-everlane-now-mens",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":588,
+              "name":"Everlane Now NYC",
+              "position":4,
+              "parent_id":581,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/3fda3fb2_50f2.jpg",
+              "url":"/collections/nyc-everlane-now-mens",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":760,
+              "name":"Choose What You Pay",
+              "position":5,
+              "parent_id":581,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/09c95642_6d9f.jpg",
+              "url":"/collections/mens-choose-what-you-pay",
+              "submenus":[
+
+              ]
+            }
+          ]
+        },
+        {
+          "id":507,
+          "name":"Apparel",
+          "position":1,
+          "parent_id":2,
+          "important":false,
+          "img_url":"https://everlane-2.imgix.net/i/a4e1fa19_f6e3.jpg",
+          "url":"/collections/mens-all-apparel",
+          "submenus":[
+            {
+              "id":511,
+              "name":"Sweaters",
+              "position":1,
+              "parent_id":507,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/ab7f9106_362c.jpg",
+              "url":"/collections/mens-sweaters",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":512,
+              "name":"Outerwear",
+              "position":2,
+              "parent_id":507,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/0ca1b002_5c64.jpg",
+              "url":"/collections/mens-outerwear",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":509,
+              "name":"Tees",
+              "position":5,
+              "parent_id":507,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/7013841e_0811.jpg",
+              "url":"/collections/mens-tees",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":510,
+              "name":"Shirts",
+              "position":5,
+              "parent_id":507,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/c4cd88f3_e009.jpg",
+              "url":"/collections/mens-shirt-shop",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":712,
+              "name":"Pants",
+              "position":5,
+              "parent_id":507,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/7bd4682f_c756.jpg",
+              "url":"/collections/mens-pants",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":750,
+              "name":"Sweatshirts",
+              "position":6,
+              "parent_id":507,
+              "important":false,
+              "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+              "url":"/collections/mens-sweatshirts",
+              "submenus":[
+
+              ]
+            }
+          ]
+        },
+        {
+          "id":508,
+          "name":"Accessories",
+          "position":2,
+          "parent_id":2,
+          "important":false,
+          "img_url":"https://everlane-2.imgix.net/i/2485e506_ddfa.jpg",
+          "url":"/collections/mens-all-accessories",
+          "submenus":[
+            {
+              "id":514,
+              "name":"Backpacks & Bags",
+              "position":0,
+              "parent_id":508,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/d0445fe6_ee05.jpg",
+              "url":"/collections/mens-backpacks-bags",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":515,
+              "name":"Leather Goods",
+              "position":0,
+              "parent_id":508,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/12148b59_90b5.jpg",
+              "url":"/collections/mens-accessories",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":730,
+              "name":"Gift Cards",
+              "position":2,
+              "parent_id":508,
+              "important":false,
+              "img_url":"https://everlane.imgix.net/i/99f14311_a9dd.jpg",
+              "url":"/collections/everlane-giftcards",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":734,
+              "name":"The Slim Tie",
+              "position":2,
+              "parent_id":508,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/5c4a39ac_727f.jpg",
+              "url":"/collections/the-slim-tie",
+              "submenus":[
+
+              ]
+            },
+            {
+              "id":741,
+              "name":"Scarves, Hats, and Gloves",
+              "position":2,
+              "parent_id":508,
+              "important":false,
+              "img_url":"https://everlane-2.imgix.net/i/71311ac6_ec0c.jpg",
+              "url":"/collections/mens-scarves-hats-gloves",
+              "submenus":[
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":542,
+      "name":"Mini",
+      "position":3,
+      "parent_id":617,
+      "important":false,
+      "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+      "url":"/collections/mini",
+      "submenus":[
+
+      ]
+    },
+    {
+      "id":518,
+      "name":"Factories",
+      "position":4,
+      "parent_id":617,
+      "important":false,
+      "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+      "url":"/factories",
+      "submenus":[
+
+      ]
+    },
+    {
+      "id":519,
+      "name":"About",
+      "position":5,
+      "parent_id":617,
+      "important":false,
+      "img_url":"http://placehold.it/100x100/333/AE9F9A&text=No%20Image",
+      "url":"/about",
+      "submenus":[
+
+      ]
+    }
+  ]
+}

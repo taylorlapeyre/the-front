@@ -1,0 +1,14 @@
+@import 'mixins/font';
+
+.top-level-menu-item {
+  display: inline-block;
+  width: 11%;
+}
+
+.top-level-menu-link {
+  @include font(serif, 13px);
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 10px 7px;
+  text-transform: uppercase;
+}

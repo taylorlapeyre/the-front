@@ -1,0 +1,27 @@
+@import 'variables/colors';
+@import 'mixins/font';
+
+$light-colors: ($white, $tone-grey, $light-accent-grey);
+
+@mixin button($color) {
+  @include font(sans-serif, 14px);
+  font-weight: bold;
+  transition: background-color .2s, color .2s;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $color;
+  border: 0;
+  cursor: pointer;
+  padding: 10px 35px;
+
+  @if index($light-colors, $color) {
+    color: darken($color, 70%);
+  } @else {
+    color: $white;
+  }
+
+  &:hover {
+    background-color: darken($color, 10%);
+  }
+}

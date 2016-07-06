@@ -1,0 +1,15 @@
+{
+  "homepage":{
+    "name":"W Trench Refresh Feb 2016 LIF",
+    "context":"logged-in-female",
+    "id":433,
+    "content_page":{
+      "id":2321,
+      "compiled_content":"<div class=\"cp-full-layout\">\r\n<div class=\"cp-full-content\">\r\n\r\n<h1 class=\"everlane-sans-headline\">TRENCH</h1>\r\n\r\n<p><a href=\"https://www.everlane.com/collections/womens-outerwear\">SHOP NOW</a></p>\r\n</div>\r\n</div>",
+      "compiled_styles":"#content_page_2321 h1, #content_page_2321 h2, #content_page_2321 h3, #content_page_2321 h4, #content_page_2321 p {\n  color: #FFFFFF; }\n#content_page_2321 .everlane-sans-headline {\n  line-height: 100px;\n  letter-spacing: 25px;\n  margin-top: 0; }\n#content_page_2321 h1 {\n  font-size: 145px;\n  line-height: 100px;\n  margin-bottom: 70px;\n  margin-left: 2%;\n  letter-spacing: 1.2px; }\n#content_page_2321 p {\n  font-size: 22px;\n  letter-spacing: .5px;\n  margin-top: 5px;\n  margin-bottom: 5px; }\n#content_page_2321 a {\n  font-size: 10px;\n  margin-top: 100px;\n  border: 1px solid #fff;\n  background: #fff;\n  color: #505050;\n  text-decoration: none;\n  border-radius: 0px;\n  min-width: 0px;\n  line-height: 15px; }\n#content_page_2321 p.small {\n  text-transform: uppercase;\n  font-size: 16px;\n  letter-spacing: 5px; }\n#content_page_2321 .cp-full-content {\n  top: 57%; }\n#content_page_2321 .cp-full-layout {\n  background-image: url(\"https://everlane-2.imgix.net/static/hero/20160223_TrenchRefresh_Hero.jpg\");\n  min-height: 500px;\n  height: 100vh; }\n",
+      "compiled_config":{},
+      "compiled_script":"",
+      "name":"Homepage Hero: W Trench Refresh Feb 2016"
+    }
+  }
+}

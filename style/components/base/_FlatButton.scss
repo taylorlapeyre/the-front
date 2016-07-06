@@ -1,0 +1,43 @@
+@import 'variables/colors';
+@import 'mixins/font';
+
+.flat-button {
+  @include font(sans-serif, 14px);
+  transition: background-color .2s, color .2s;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $everlane-grey;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 12px 35px;
+  display: inline-block;
+  text-align: center;
+
+  &--small {
+    @include font(sans-serif, 12px);
+    padding: 12px 20px;
+  }
+
+  &--grey {
+    background-color: $light-accent-grey;
+  }
+
+  &--dark-grey {
+    background-color: $dark-accent-grey;
+  }
+
+  &--copper {
+    background-color: $copper;
+  }
+
+  &--disabled {
+    background-color: $tone-grey;
+    color: $light-accent-grey;
+    pointer-events: none;
+  }
+
+  &--full-width {
+    display: block;
+  }
+}

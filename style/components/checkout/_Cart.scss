@@ -1,0 +1,21 @@
+@import "mixins/font";
+@import "variables/colors";
+
+.cart {
+  &__no-line-items-message {
+    @include font(serif, 14px);
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  &__shipping-section {
+    border-top: 1px solid $light-accent-grey;
+  }
+
+  &__shipping-section-title {
+    @include font(serif, 16px);
+    color: $everlane-grey;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}

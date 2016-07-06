@@ -1,0 +1,16 @@
+{
+  "order_preview": {
+    "subtotal": "$98",
+    "adjustments": [
+      {
+        "label": "Shipping",
+        "amount": "$4.95"
+      },
+      {
+        "label": "Tax",
+        "amount": "$1.85"
+      }
+    ],
+    "total": "$104.80"
+  }
+}

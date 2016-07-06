@@ -1,0 +1,26 @@
+@import "variables/colors";
+@import "mixins/font";
+
+.checkout-preview-page {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+
+  &__cart-container {
+    width: 60%;
+  }
+
+  &__order-balance-container {
+    width: 20%;
+  }
+
+  &__back-link {
+    @include font(sans-serif, 14px);
+    color: $everlane-grey;
+    text-transform: uppercase;
+    appearance: none;
+    border: 0;
+    background: 0;
+  }
+}

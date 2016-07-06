@@ -1,0 +1,21 @@
+@import 'mixins/font';
+@import 'variables/colors';
+
+.checkout-account-page {
+  width: 400px;
+  margin: 0 auto;
+
+  &__title {
+    @include font(serif, 22px);
+    color: $dark-accent-grey;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    @include font(sans-serif, 12px);
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}

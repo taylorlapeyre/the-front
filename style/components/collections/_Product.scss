@@ -1,0 +1,14 @@
+@import 'mixins/font';
+@import 'variables/colors';
+
+.product {
+  display: inline-block;
+  height: 400px;
+  text-align: center;
+  width: 400px;
+
+  &__title {
+    @include font(serif, 15px);
+    color: $dark-accent-grey;
+  }
+}

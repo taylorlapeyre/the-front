@@ -1,0 +1,30 @@
+.product-gallery {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  &__big-image {
+    display: block;
+    width: 400px;
+    height: 400px;
+    padding-right: 20px;
+  }
+
+  &__side-images {
+    float: right;
+  }
+
+  &__small-image {
+    display: block;
+    width: 85px;
+    cursor: pointer;
+
+    &:first-of-type {
+      padding-bottom: 10px;
+    }
+
+    &:not(:first-of-type) {
+      padding: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "variables/colors";
+@import "mixins/font";
+
+.checkout-review-page {
+
+  &__title {
+    @include font(serif, 22px);
+    color: $dark-accent-grey;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  &__content {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__order-details-container {
+    width: 70%;
+  }
+
+  &__order-balance-container {
+    width: 225px;
+  }
+}

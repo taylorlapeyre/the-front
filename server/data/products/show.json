@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 1,
+    "name": "The Everlane Trench - Black",
+    "display_name": "The Everlane Trench - Black",
+    "gender": "female",
+    "permalink": "womens-everlane-trench-black",
+    "price": 235,
+    "color": {
+      "name": "Black",
+      "hexCode": "#000000"
+    },
+    "products_in_group": [
+      {
+        "id": 1,
+        "color": {
+          "name": "Black",
+          "hexCode": "#000000"
+        }
+      },
+      {
+        "id": 2,
+        "color": {
+          "name": "Blue",
+          "hexCode": "#7093D2"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "id": 5375,
+        "product_id": 1981,
+        "collection_id": 326,
+        "size": "XS",
+        "sku": "F-OTWR-CTN-TRN-LNG-BLK-XS",
+        "price": 175,
+        "available": 278,
+        "orderable_state": "shippable"
+      },
+      {
+        "id": 5374,
+        "product_id": 1981,
+        "collection_id": 326,
+        "size": "S",
+        "sku": "F-OTWR-CTN-TRN-LNG-BLK-S",
+        "price": 175,
+        "available": 382,
+        "orderable_state": "waitlistable"
+      },
+      {
+        "id": 5373,
+        "product_id": 1981,
+        "collection_id": 326,
+        "size": "M",
+        "sku": "F-OTWR-CTN-TRN-LNG-BLK-M",
+        "price": 175,
+        "available": 240,
+        "orderable_state": "preorderable"
+      },
+      {
+        "id": 5372,
+        "product_id": 1981,
+        "collection_id": 326,
+        "size": "L",
+        "sku": "F-OTWR-CTN-TRN-LNG-BLK-L",
+        "price": 175,
+        "available": 119,
+        "orderable_state": "sold-out"
+      }
+    ],
+    "images": {
+      "square": [
+        "https://everlane.imgix.net/i/43ec3be8_5fde.jpg?dpr=1&q=65",
+        "https://everlane.imgix.net/i/a239326d_0e8a.jpg?dpr=1&q=65",
+        "https://everlane.imgix.net/i/27026a08_b452.jpg?dpr=1&q=65",
+        "https://everlane.imgix.net/i/f68e6887_5414.jpg?dpr=1&q=65"
+      ]
+    },
+    "desktop_content_page": {
+      "id": 1490,
+      "compiled_content": "{{description}}\r\n{{instagram}}\r\n<img class=\"container-1400\" src=\"https://everlane.imgix.net/static/Women's-Everlane-Trench-2.jpg?dpr=1&q=65\">\r\n",
+      "compiled_styles": "#content_page_1490 {\n  /* Don't forget semicolons */ }\n",
+      "compiled_config": {},
+      "compiled_script": "",
+      "name": "Desktop Content Page: Everlane Trench 20150916"
+    }
+  }
+}

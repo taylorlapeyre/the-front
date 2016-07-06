@@ -1,0 +1,60 @@
+{
+  "credit_cards": [
+    {
+      "id": 433299,
+      "primary": true,
+      "first_name": "Taylor",
+      "last_name": "Lapeyre",
+      "full_name": "Taylor Lapeyre",
+      "number": "************5680",
+      "country": "US",
+      "zip_code": "94102",
+      "expiration_month": "10",
+      "expiration_year": "2018",
+      "type": "visa",
+      "disabled": false
+    },
+    {
+      "id": 205794,
+      "primary": false,
+      "first_name": "Taylor",
+      "last_name": "Lapeyre",
+      "full_name": "Taylor Lapeyre",
+      "number": "************7691",
+      "country": "USA",
+      "zip_code": "70125",
+      "expiration_month": "05",
+      "expiration_year": "2017",
+      "type": "visa",
+      "disabled": false
+    },
+    {
+      "id": 105856,
+      "primary": false,
+      "first_name": "Taylor",
+      "last_name": "Lapeyre",
+      "full_name": "Taylor Lapeyre",
+      "number": "************8016",
+      "country": "USA",
+      "zip_code": "70125",
+      "expiration_month": "06",
+      "expiration_year": "2016",
+      "type": "visa",
+      "disabled": false
+    },
+    {
+      "id": 4209,
+      "primary": false,
+      "first_name": "Taylor",
+      "last_name": "Lapeyre",
+      "full_name": "Taylor Lapeyre",
+      "number": "************8711",
+      "country": "USA",
+      "zip_code": "70125",
+      "expiration_month": "01",
+      "expiration_year": "2014",
+      "type": "visa",
+      "disabled": false
+    }
+  ]
+}

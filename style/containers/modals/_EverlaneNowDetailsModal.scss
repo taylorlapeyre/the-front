@@ -1,0 +1,25 @@
+@import 'mixins/font';
+@import 'variables/colors';
+
+.everlane-now-details-modal {
+  padding: 50px 125px;
+  text-align: center;
+
+  &__title {
+    @include font(serif, 20px);
+    color: $everlane-grey;
+  }
+
+  &__fancy-line-seperator {
+    width: 70px;
+    border: 1px solid $light-accent-grey;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    @include font(sans-serif, 13px);
+    color: $light-accent-grey;
+    line-height: 2;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,10 @@
+@import 'mixins/font';
+
+.logo {
+  @include font(everlane);
+  display: inline-block;
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  margin: 0;
+  user-select: none;
+}

@@ -1,0 +1,15 @@
+@mixin font($family, $size: 0) {
+  @if $family == sans-serif {
+    font-family: 'Graphik', sans-serif;
+  } @else if $family == serif {
+    font-family: 'Century Schoolbook', serif;
+  } @else if $family == 'everlane' {
+    font-family: 'Everlane Sans', sans-serif;
+  }
+
+  @if $size != 0 {
+    font-size: $size;
+  }
+
+  font-weight: normal;
+}

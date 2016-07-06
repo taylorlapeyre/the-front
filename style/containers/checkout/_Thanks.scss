@@ -1,0 +1,18 @@
+@import 'mixins/font';
+
+.checkout-thanks-page {
+  width: 90%;
+  margin: 50px auto;
+
+  &__thanks-message {
+    @include font(sans-serif, 14px);
+    text-align: center;
+  }
+
+  &__order-details-table-container {
+    background-color: $tone-grey;
+    padding: 30px;
+    min-height: 400px;
+    margin-top: 50px;
+  }
+}

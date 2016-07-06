@@ -1,0 +1,28 @@
+@import 'mixins/button';
+@import 'variables/colors';
+@import 'mixins/font';
+
+.home__index {
+  text-align: center;
+
+  .cp-full-layout {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cp-full-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
+    a {
+      @include button($white);
+    }
+  }
+
+  .everlane-sans-headline {
+    @include font(everlane, 145px);
+  }
+}

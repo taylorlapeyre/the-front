@@ -1,0 +1,10 @@
+@import 'variables/colors';
+
+.loading-indicator {
+  z-index: 100;
+  transition: width 0.2s;
+  height: 2px;
+  width: 0;
+  position: fixed;
+  background-color: $everlane-grey;
+}

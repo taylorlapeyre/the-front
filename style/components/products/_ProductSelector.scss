@@ -1,0 +1,28 @@
+@import 'mixins/font';
+@import 'variables/colors';
+
+.product-selector {
+  @include font(sans-serif, 12px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  color: $everlane-grey;
+
+  &__color {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    margin: 5px;
+    cursor: pointer;
+
+    &--active {
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 1px $dark-accent-grey;
+    }
+  }
+}
